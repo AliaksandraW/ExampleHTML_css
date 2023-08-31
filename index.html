@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AW's site</title>
+    <meta  charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>  
+  </head>
+  <body>
+  <header class="header-menu">
+    <div id="menuB">
+      <nav>
+        <ul>
+            <div class="btn-group" type="button">
+                <button class="button" value="unchecked"><a href="#welcome">Welcome</a></button>  
+                <button class="button" value="unchecked"><a href="#about">Who I am</a></button>
+                <button class="button" value="unchecked"><a href="#can">What I can</a></button>
+                <button class="button" value="unchecked"><a href="#use">What I use</a></button>
+                <button class="button" value="unchecked"><a href="#more">Additional information</a></button>
+            </div>
+        </ul> 
+    </nav>
+  </div>
+<div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+  <nav class="nav" id="nav">
+    <ul>
+      <li><a href="#welcome">Welcome</a></li>  
+      <li><a href="#about">Who I am</a></li>
+      <li><a href="#can">What I can</a></li>
+      <li><a href="#use">What I use</a></li>
+      <li><a href="#more">More</a> </li>
+    </ul>
+  </nav>
+</div>
+<div class="menu-bg" id="menu-bg"></div>
+  </header>
+    <section>
+    <article id="welcome" >
+        <svg viewBox="0 0 600 400">
+            <symbol id="s-text">
+              <text text-anchor="middle" x="50%" y="35%" class="text--line">
+                Welcome
+              </text>
+              <text text-anchor="middle" x="50%" y="68%" class="text--line2">
+                to my site
+              </text>
+            </symbol>
+            <g class="g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+          </svg>
+    </article>
+    <article id="about">
+        <h2>Who am I?</h2>
+            <p id="line1">I am a self-made person who believes in continuous learning and growth. While I cannot claim to know everything, I am always eager to expand my knowledge and develop new skills. With a strong sense of critical thinking, I can effectively find and analyze information to make informed decisions.</p>
+            <p id="line2">I am a result-oriented individual who values deadlines and strives to meet them. I approach every task with a commitment to doing my best, regardless of the circumstances or location. As a team player, I excel in collaboration, while also maintaining a high level of personal responsibility.</p>      
+            <p id="line3">With strong organizational skills and the ability to multitask, I can effectively manage and prioritize my workload. I embrace challenges and work diligently to achieve success in all my endeavors.</p>
+    </article> 
+    <article id="can">
+        <h2>What I can</h2>
+    <ul class="list">
+        <li>Design and develop test automation frameworks from scratch to ensure efficient and structured automation testing;</li> 
+        <li>Use automated scripts to perform functionality testing during various phases of
+            application development using Java, Maven, Selenium WebDriver, TestNG/Junit, and GitHub Actions;</li>               
+        <li>Successfully perform full-stack automation across the three layers of the application UI, database, and API;</li> 
+        <li>Develop and maintain test documentation such as test cases, test results and bug reports;</li>
+        <li>Report software defects/bugs using Jira X-ray and interact with developers to resolve technical issues;</li>
+        <li>Integrate automated tests into CI/CD pipelines, ensuring tests run automatically during software development and deployment;</li> 
+        <li>Create and execute database SQL queries;</li>
+        <li>Execute manual API testing using Postman; </li> 
+        <li>Configure test parallelization using Selenium Grid;</li>
+        <li>Collaborate with stakeholders such as developers, QA engineers, and business analysts to align test automation efforts and provide valuable feedback;</li>
+        <li>Create static Websites using HTML and CSS</li>
+    </ul>
+    </article>
+    <article id="use">
+        <h2>My technical toolset:</h2>
+        <table>
+            <tr>
+                <td>Test Automation Tools:</td>
+                <td>Selenium WebDriver, JUnit, TestNG</td>
+            </tr>
+            <tr>
+                <td>Languages:</td>
+                <td>Java, SQL, HTML, Gherkin (Cucumber)</td>
+            </tr>
+            <tr>
+                <td>Build/CI/TM Tools:</td>
+                <td>Jenkins, Vercel, Maven, Jira/ X-Ray</td>
+            </tr>
+            <tr>
+                <td>Version control</td>
+                <td>Git</td>
+            </tr>
+            <tr>
+                <td>Databases:</td>
+                <td>Oracle, MySQL (JDBC)</td>
+            </tr>
+            <tr>
+                <td>Frameworks:</td>
+                <td>Behavior-Driven, Data-Driven</td>
+            </tr>
+            <tr>
+                <td>Design Pattern:</td>
+                <td>Singleton, Page Object Model, POJO</td>
+            </tr>
+            <tr>
+                <td>IDE:</td>
+                <td>IntelliJ, Visual Studio Code</td>
+            </tr>
+            <tr>
+                <td>API Testing</td>
+                <td>REST API, Postman</td>
+            </tr>
+            <tr>
+                <td>Web</td>
+                <td>CSS, HTML, XPath, JavaScript(basic)</td>
+            </tr>
+            <tr>
+                <td>Enviroment</td>
+                <td>Agile/Scrum</td>
+            </tr>
+            <tr>
+                <td>OS</td>
+                <td>Windows 10, Mac</td>
+            </tr>
+        </table>
+    </article>
+        <article id = "more">
+          <h2>Additional information</h2>
+          <p>This website is my personal project. I completed the full cycle, from the first line in HTML to publishing it on
+            the web. Yes, I really love learning new processes and tools. You can also see my other projects and test
+            automation frameworks on my <a href="https://github.com/AliaksandraW?tab=repositories" target="_blank">GitHub.</a></p>
+         <p>I forgot who said it, but: "There is nothing impossible. It's just that some things require more time."</p>
+      </article>
+    </section>
+        <footer id="contact">
+      <p class="footer-line">
+        <a href="mailto:a.wasilewich@gmail.com" target="_blank"><img src="./pictures/gmailLogo.png" alt = "Email"/></a>
+        <a href="https://www.linkedin.com/in/alex-wasilewich/" target="_blank"><img src = "./pictures/linkedinLogo.png" alt="LinkedIn"/></a>
+        <a href="https://github.com/AliaksandraW?tab=repositories" target="_blank"> <img src="./pictures/githubLogo.png" alt = "GitHub"></a>
+      </p>
+      <p class="footer-line">
+        <a href="#top">Top of the page</a>
+        &copy; 2023, Alex Was</p>
+      </p>
+        </footer> 
+  </body>
+</html>
